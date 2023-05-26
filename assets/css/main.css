@@ -33,10 +33,18 @@ body {
 	line-height: 1;
 }
 
-ol, ul {
+ol {
 	list-style: none;
 }
 
+ul {
+	list-style-type: none; /* Remove default bullet points */
+	padding: 0; /* Remove default padding */
+  }
+
+  li {
+	margin-bottom: 15px; /* Increase the spacing between list items */
+  }
 blockquote, q {
 	quotes: none;
 }
